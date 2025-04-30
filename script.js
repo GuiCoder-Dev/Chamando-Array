@@ -8,7 +8,7 @@ if(number >= 0 && number <=6) {
     array.innerHTML = pc[number];
 } else if(number < 0 || number > 6){
     array.innerHTML = "Digite um número de 1 a 6"
-} if (number == "") {
+} if (number == "" || number == undefined) {
     array.innerHTML = "Digite um número de 1 a 6"
 }
 
